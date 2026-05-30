@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog | International Freelance Hub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="logo.png">
+<link rel="stylesheet" href="styles.css?v=7">
+<style>
+  .coming-soon-wrap {
+    max-width: 700px; margin: 0 auto; padding: 6rem 1.5rem; text-align: center;
+  }
+  .coming-soon-icon { font-size: 5rem; margin-bottom: 1.5rem; }
+  .coming-soon-wrap h1 { font-size: 2.2rem; margin-bottom: 1rem; }
+  .coming-soon-wrap p { color: #6b7280; font-size: 1.05rem; margin-bottom: 2rem; max-width: 500px; margin-left: auto; margin-right: auto; }
+  .coming-soon-badge { display: inline-block; background: #eff6ff; color: #2563eb; font-size: 0.82rem; font-weight: 700; padding: 0.4rem 1rem; border-radius: 50px; margin-bottom: 1.5rem; letter-spacing: 0.1em; }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <span>🔥 <strong>47 orders placed this week</strong></span>
+    <span>⚡ <strong>24-hour turnaround available</strong></span>
+    <span>✅ <strong>100% Satisfaction Guaranteed</strong></span>
+    <a href="contact.html" class="topbar-cta">Order Now →</a>
+  </div>
+</div>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" style="display:flex;align-items:center;">
+      <img src="logo.png" alt="International Freelance Hub" style="height:110px;width:auto;display:block;object-fit:contain;border-radius:12px;">
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="testimonials.html">Testimonials</a></li>
+      <li><a href="blog.html" class="active">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="contact.html" class="btn-primary">Get Started</a>
+    <button class="hamburger" onclick="toggleMenu()">☰</button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a><a href="services.html">Services</a><a href="about.html">About</a>
+    <a href="testimonials.html">Testimonials</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a>
+    <a href="contact.html" class="btn-primary">Get Started</a>
+  </div>
+</nav>
+
+<div class="coming-soon-wrap">
+  <div class="coming-soon-icon">📝</div>
+  <div class="coming-soon-badge">COMING SOON</div>
+  <h1>Full Articles <span class="blue">Coming Soon!</span></h1>
+  <p>We're currently working on publishing full in-depth articles for our blog. Check back soon or subscribe to get notified when new posts go live!</p>
+  <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+    <a href="blog.html" class="btn-outline">← Back to Blog</a>
+    <a href="contact.html" class="btn-primary">Contact Us →</a>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div style="margin-bottom:1rem;"><img src="logo.png" alt="International Freelance Hub" style="height:45px;width:auto;display:block;object-fit:contain;"></div>
+      <p>Your one-stop global digital services agency. Empowering businesses and creators worldwide.</p>
+      <div class="footer-social"><a href="#">📘</a><a href="#">🐦</a><a href="#">📸</a><a href="#">💼</a></div>
+    </div>
+    <div class="footer-links"><h4>Pages</h4><a href="index.html">Home</a><a href="services.html">Services</a><a href="about.html">About</a><a href="testimonials.html">Testimonials</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a></div>
+    <div class="footer-links"><h4>Services</h4><a href="services.html">SEO & Marketing</a><a href="services.html">Content Writing</a><a href="services.html">Graphic Design</a><a href="services.html">Video Editing</a><a href="services.html">Logo Design</a><a href="services.html">Transcription</a></div>
+    <div class="footer-links"><h4>Contact</h4><a href="mailto:int.freelancehub@gmail.com">int.freelancehub@gmail.com</a><a href="#">Response within 24 hours</a><a href="#">Available worldwide, 24/7</a></div>
+  </div>
+  <div class="footer-bottom"><p>© 2025 International Freelance Hub. All rights reserved.</p><div><span>🔒 Secure</span><span>✅ Satisfaction Guaranteed</span><span>⚡ Fast Delivery</span></div></div>
+</footer>
+
+<script>function toggleMenu(){document.getElementById('mobileMenu').classList.toggle('open');}</script>
+</body>
+</html>
