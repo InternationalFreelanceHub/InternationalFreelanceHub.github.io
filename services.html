@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services | International Freelance Hub</title>
+<meta name="description" content="100+ professional digital services including SEO, content writing, graphic design, video editing, logo design, transcription and more.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=7">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <span>🔥 <strong>47 orders placed this week</strong></span>
+    <span>⚡ <strong>24-hour turnaround available</strong></span>
+    <span>✅ <strong>100% Satisfaction Guaranteed</strong></span>
+    <a href="contact.html" class="topbar-cta">Order Now →</a>
+  </div>
+</div>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" style="display:flex;align-items:center;">
+      <img src="logo.png" alt="International Freelance Hub" style="height:110px;width:auto;display:block;object-fit:contain;border-radius:12px;">
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html" class="active">Services</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="testimonials.html">Testimonials</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="contact.html" class="btn-primary">Get Started</a>
+    <button class="hamburger" onclick="toggleMenu()">☰</button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a><a href="services.html">Services</a><a href="about.html">About</a>
+    <a href="testimonials.html">Testimonials</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a>
+    <a href="contact.html" class="btn-primary">Get Started</a>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="section-label">OUR SERVICES</div>
+  <h1>Everything You Need to <span class="blue">Grow Online</span></h1>
+  <p>100+ professional digital services delivered by expert freelancers worldwide. Whatever you need, we've got you covered.</p>
+</section>
+
+<div class="filter-tabs">
+  <button class="filter-btn active" onclick="filterServices('all', this)">All Services</button>
+  <button class="filter-btn" onclick="filterServices('writing', this)">Content & Writing</button>
+  <button class="filter-btn" onclick="filterServices('design', this)">Design & Creative</button>
+  <button class="filter-btn" onclick="filterServices('marketing', this)">Digital Marketing</button>
+  <button class="filter-btn" onclick="filterServices('video', this)">Video & Media</button>
+  <button class="filter-btn" onclick="filterServices('business', this)">Business Solutions</button>
+</div>
+
+<div class="services-full">
+
+  <div class="service-category" data-cat="writing">
+    <div class="services-section-title">📄 Content & Writing</div>
+    <div class="services-full-grid">
+      <div class="service-full-card"><img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?w=400&q=80" alt="Content Writing"><div class="service-full-card-body"><div class="service-icon">📄</div><h3>Content Writing</h3><p>High-quality content for websites, blogs, and digital platforms tailored to your audience.</p><a href="contact.html" class="btn-primary small">Order Now →</a></div></div>
+      <div class="service-full-card"><img src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=400&q=80" alt="Copywriting"><div class="service-full-card-body"><div class="service-icon">✍️</div><h3>Copywriting</h3><p>Persuasive, conversion-focused copy for ads, landing pages, and marketing materials.</p><a href="contact.html" class="btn-primary small">Order Now →</a></div></div>
+      <div class="service-full-card"><img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&q=80" alt="Research Writing"><div class="service-full-card-body"><div class="service-icon">📚</div><h3>Research Writing</h3><p>In-depth, well-researched academic or professional writing for any subject.</p><a href="contact.html" class="btn-primary small">Order Now →</a></div></div>
+      <div class="service-full-card"><img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&q=80" alt="Blog Writing"><div class="service-full-card-body"><div class="service-icon">📝</div><h3>Blog Writing</h3><p>Engaging, SEO-optimized blog posts that drive traffic and keep readers coming back.</p><a href="contact.html" class="btn-primary small">Order Now →</a></div></div>
+      <div class="service-full-card"><img src="https://images.unsplash.com/photo-1606761568499-6d2451b23c66?w=400&q=80" alt="Proofreading"><div class="service-full-card-body"><div class="service-icon">🔎</div><h3>Proofreading & Editing</h3><p>Professional proofreading and editing to make your content flawless and polished.</p><a href="contact.html" class="btn-primary small">Order Now →</a></div></div>
+      <div class="service-full-card"><img src="https://images.unsplash.com/photo-1586880244406-556ebe35f282?w=400&q=80" alt="Ghostwriting"><div class="service-full-card-body"><div class="service-icon">👻</div><h3>Ghostwriting</h3><p>Expert ghostwriting for books, articles, speeches, and more — your ideas, our words.</p><a href="contact.html" class="btn-primary small">Order Now →</a></div></div>
+    </div>
+  </div>
+
+  <div class="service-category" data-cat="design">
+    <div class="services-section-title">🎨 Design & Creative</div>
+    <div class="services-full-grid">
+      <div class="service-full-card"><img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&q=80" alt="Graphic Design"><div class="service-full-card-body"><div class="service-icon">🎨</div><h3>Graphic Design</h3><p>Eye-catching visuals for social media, print, presentations, and digital platforms.</p><a href="contact.html" class="btn-primary small">Order Now →</a></div></div>
+      <div class="service-full-card"><img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=400&q=80" alt="Logo Design"><div class="service-full-card-body"><div class="service-icon">✏️</div><h3>Logo Design</h3><p>Unique, memorable logos that represent your brand identity and values perfectly.</p><a href="contact.html" class="btn-primary small">Order Now →</a></div></div>
+      <div class="service-full-card"><img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=400&q=80" alt="Brand Identity"><div class="service-full-card-body"><div class="service-icon">💎</div><h3>Brand Identity</h3><p>Complete brand identity packages including logo, colors, typography, and guidelines.</p><a href="contact.html" class="btn-primary small">Order Now →</a></div></div>
+      <div class="service-full-card"><img src="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=400&q=80" alt="Thumbnail Design"><div class="service-full-card-body"><div class="service-icon">🖼️</div><h3>Thumbnail Design</h3><p>High-CTR YouTube and social media thumbnails that drive clicks and views.</p><a href="contact.html" class="btn-primary small">Order Now →</a></div></div>
+      <div class="service-full-card"><img src="https://images.unsplash.com/photo-1634942537034-2531766767d1?w=400&q=80" alt="Infographic"><div class="service-full-card-body"><div class="service-icon">📊</div><h3>Infographic Design</h3><p>Visually compelling infographics that communicate complex data in a simple way.</p><a href="contact.html" class="btn-primary small">Order Now →</a></div></div>
+      <div class="service-full-card"><img src="https://images.unsplash.com/photo-1542626991-cbc4e32524cc?w=400&q=80" alt="Presentation"><div class="service-full-card-body"><div class="service-icon">📑</div><h3>Presentation Design</h3><p>Professional PowerPoint and Google Slides presentations that impress your audience.</p><a href="contact.html" class="btn-primary small">Order Now →</a></div></div>
+    </div>
+  </div>
+
+  <div class="service-category" data-cat="marketing">
+    <div class="services-section-title">📈 Digital Marketing</div>
+    <div class="services-full-grid">
+      <div class="service-full-card"><img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=400&q=80" alt="SEO"><div class="service-full-card-body"><div class="service-icon">🔍</div><h3>SEO Optimization</h3><p>Boost your search rankings with on-page, off-page, and technical SEO strategies.</p><a href="contact.html" class="btn-primary small">Order Now →</a></div></div>
+      <div class="service-full-card"><img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=400&q=80" alt="Social Media"><div class="service-full-card-body"><div class="service-icon">📱</div><h3>Social Media Marketing</h3><p>Grow your social presence and engage your audience across Instagram, Facebook, LinkedIn.</p><a href="contact.html" class="btn-primary small">Order Now →</a></div></div>
+      <div class="service-full-card"><img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&q=80" alt="Email Marketing"><div class="service-full-card-body"><div class="service-icon">📧</div><h3>Email Marketing</h3><p>Effective email campaigns that nurture leads and convert subscribers into loyal customers.</p><a href="contact.html" class="btn-primary small">Order Now →</a></div></div>
+      <div class="service-full-card"><img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&q=80" alt="PPC"><div class="service-full-card-body"><div class="service-icon">💰</div><h3>PPC Advertising</h3><p>Targeted Google and Meta ad campaigns that maximize ROI and drive qualified traffic.</p><a href="contact.html" class="btn-primary small">Order Now →</a></div></div>
+      <div class="service-full-card"><img src="https://images.unsplash.com/photo-1533750349088-cd871a92f312?w=400&q=80" alt="Content Marketing"><div class="service-full-card-body"><div class="service-icon">📣</div><h3>Content Marketing</h3><p>Strategic content plans that attract, engage, and convert your target audience.</p><a href="contact.html" class="btn-primary small">Order Now →</a></div></div>
+      <div class="service-full-card"><img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&q=80" alt="Analytics"><div class="service-full-card-body"><div class="service-icon">📊</div><h3>Analytics & Reporting</h3><p>Detailed performance reports and actionable insights to grow your digital presence.</p><a href="contact.html" class="btn-primary small">Order Now →</a></div></div>
+    </div>
+  </div>
+
+  <div class="service-category" data-cat="video">
+    <div class="services-section-title">🎬 Video & Media</div>
+    <div class="services-full-grid">
+      <div class="service-full-card"><img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=400&q=80" alt="Video Editing"><div class="service-full-card-body"><div class="service-icon">🎬</div><h3>Video Editing</h3><p>Professional video editing for YouTube, social media, ads, and corporate videos.</p><a href="contact.html" class="btn-primary small">Order Now →</a></div></div>
+      <div class="service-full-card"><img src="https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=400&q=80" alt="Transcription"><div class="service-full-card-body"><div class="service-icon">📝</div><h3>Transcription</h3><p>Accurate transcription of audio and video files in multiple languages and formats.</p><a href="contact.html" class="btn-primary small">Order Now →</a></div></div>
+      <div class="service-full-card"><img src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=400&q=80" alt="Voice Over"><div class="service-full-card-body"><div class="service-icon">🎙️</div><h3>Voice Over</h3><p>Professional voice-over recordings for videos, ads, e-learning, and podcasts.</p><a href="contact.html" class="btn-primary small">Order Now →</a></div></div>
+      <div class="service-full-card"><img src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=400&q=80" alt="Subtitles"><div class="service-full-card-body"><div class="service-icon">💬</div><h3>Subtitling & Captions</h3><p>Accurate subtitles and captions for videos to maximize reach and accessibility.</p><a href="contact.html" class="btn-primary small">Order Now →</a></div></div>
+      <div class="service-full-card"><img src="https://images.unsplash.com/photo-1561736778-92e52a7769ef?w=400&q=80" alt="Animation"><div class="service-full-card-body"><div class="service-icon">✨</div><h3>Animation & Motion</h3><p>Engaging animated explainer videos and motion graphics for any purpose.</p><a href="contact.html" class="btn-primary small">Order Now →</a></div></div>
+      <div class="service-full-card"><img src="https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?w=400&q=80" alt="Podcast"><div class="service-full-card-body"><div class="service-icon">🎧</div><h3>Podcast Editing</h3><p>Professional podcast editing, mixing, and production for a polished final product.</p><a href="contact.html" class="btn-primary small">Order Now →</a></div></div>
+    </div>
+  </div>
+
+  <div class="service-category" data-cat="business">
+    <div class="services-section-title">💼 Business Solutions</div>
+    <div class="services-full-grid">
+      <div class="service-full-card"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80" alt="Virtual Assistant"><div class="service-full-card-body"><div class="service-icon">🤝</div><h3>Virtual Assistant</h3><p>Reliable virtual assistants to handle admin tasks, scheduling, and business operations.</p><a href="contact.html" class="btn-primary small">Order Now →</a></div></div>
+      <div class="service-full-card"><img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=400&q=80" alt="Data Entry"><div class="service-full-card-body"><div class="service-icon">📋</div><h3>Data Entry</h3><p>Accurate and efficient data entry, processing, and management for your business needs.</p><a href="contact.html" class="btn-primary small">Order Now →</a></div></div>
+      <div class="service-full-card"><img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400&q=80" alt="Market Research"><div class="service-full-card-body"><div class="service-icon">🔬</div><h3>Market Research</h3><p>Comprehensive market research and competitor analysis to guide your business strategy.</p><a href="contact.html" class="btn-primary small">Order Now →</a></div></div>
+      <div class="service-full-card"><img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=400&q=80" alt="Translation"><div class="service-full-card-body"><div class="service-icon">🌍</div><h3>Translation</h3><p>Professional translation services in 50+ languages for documents, websites, and content.</p><a href="contact.html" class="btn-primary small">Order Now →</a></div></div>
+      <div class="service-full-card"><img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&q=80" alt="Customer Support"><div class="service-full-card-body"><div class="service-icon">🎧</div><h3>Customer Support</h3><p>Dedicated customer support agents to handle inquiries and ensure client satisfaction.</p><a href="contact.html" class="btn-primary small">Order Now →</a></div></div>
+      <div class="service-full-card"><img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=400&q=80" alt="Business Plan"><div class="service-full-card-body"><div class="service-icon">📈</div><h3>Business Planning</h3><p>Professional business plans, pitch decks, and strategic documentation for growth.</p><a href="contact.html" class="btn-primary small">Order Now →</a></div></div>
+    </div>
+  </div>
+
+</div>
+
+<section class="cta-banner">
+  <h2>Can't Find What You Need?</h2>
+  <p>We offer 100+ services. Contact us and we'll match you with the perfect expert.</p>
+  <div class="cta-btns"><a href="contact.html" class="btn-primary">🚀 Get a Free Consultation →</a></div>
+</section>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div style="margin-bottom:1rem;"><img src="logo.png" alt="International Freelance Hub" style="height:45px;width:auto;display:block;object-fit:contain;"></div>
+      <p>Your one-stop global digital services agency. Empowering businesses and creators worldwide.</p>
+      <div class="footer-social"><a href="#">📘</a><a href="#">🐦</a><a href="#">📸</a><a href="#">💼</a></div>
+    </div>
+    <div class="footer-links"><h4>Pages</h4><a href="index.html">Home</a><a href="services.html">Services</a><a href="about.html">About</a><a href="testimonials.html">Testimonials</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a></div>
+    <div class="footer-links"><h4>Services</h4><a href="services.html">SEO & Marketing</a><a href="services.html">Content Writing</a><a href="services.html">Graphic Design</a><a href="services.html">Video Editing</a><a href="services.html">Logo Design</a><a href="services.html">Transcription</a></div>
+    <div class="footer-links"><h4>Contact</h4><a href="mailto:int.freelancehub@gmail.com">int.freelancehub@gmail.com</a><a href="#">Response within 24 hours</a><a href="#">Available worldwide, 24/7</a></div>
+  </div>
+  <div class="footer-bottom"><p>© 2025 International Freelance Hub. All rights reserved.</p><div><span>🔒 Secure</span><span>✅ Satisfaction Guaranteed</span><span>⚡ Fast Delivery</span></div></div>
+</footer>
+
+<script>
+function toggleMenu(){document.getElementById('mobileMenu').classList.toggle('open');}
+function filterServices(cat, btn){
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.service-category').forEach(el => {
+    el.style.display = (cat === 'all' || el.dataset.cat === cat) ? 'block' : 'none';
+  });
+}
+</script>
+</body>
+</html>
